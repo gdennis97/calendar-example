@@ -1,25 +1,23 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import MapOne from './components/campusSelector/MapOne';
+import MapTwo from './components/campusSelector/MapTwo';
+import MapThree from './components/campusSelector/MapThree';
+import Calendar from './components/campusSelector/Calendar'
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
 
+return (
+  <div>
+          <Router>
+            <Routes> 
+              {/* <Route path='/MapOne' element={<MapOne/>}></Route>
+              <Route path='/MapTwo' element={<MapTwo/>}></Route> */}
+              <Route path='/' element={<MapThree/>}></Route>  
+            </Routes>
+          </Router>   
+        </div>
+);
+}
 export default App;

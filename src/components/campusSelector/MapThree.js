@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import { INITIAL_VALUE, ReactSVGPanZoom, TOOL_NONE } from "react-svg-pan-zoom";
 import { AutoSizer } from "react-virtualized";
 import "./MapOne.css";
+import {Link} from 'react-router-dom'
 // import Avatar from '@mui/material/Avatar';
 // import Stack from '@mui/material/Stack';
 // import IconButton from '@mui/material/IconButton';
@@ -41,7 +42,7 @@ class MapThree extends Component {
 
   render() {
     return (
-    
+      
 
         <div className="item floorplan">
             <div>
@@ -49,6 +50,10 @@ class MapThree extends Component {
                 <p1>AM</p1><div></div>
                 <p1>PM</p1><div></div>
                 <p1>BOTH</p1>
+                <Link to='/'><button className='homebutton'>Home</button></Link> 
+        <Link to='/MapOne'><button className= 'loginbutton'>Map1</button></Link>
+        <Link to='/MapTwo'><button className= 'registerbutton'>Map2</button></Link>
+        <Link to='/MapThree'><button className= 'registerbutton'>Map3</button></Link>
             </div>
           <div style={{ width: "100%", height: "80%" }}>
             <AutoSizer>
@@ -246,12 +251,12 @@ class MapThree extends Component {
                       height="50.48"
                     />
                     <rect
-                      onClick={this.handleClick.bind(this, "gravity-0-022")}
-                      className={this.isActiveRoom("gravity-0-022")}
-                      x="1450.97"
-                      y="810.04"
-                      width="50.75"
-                      height="50.48"
+                    onClick={this.handleClick.bind(this, "gravity-0-022")}
+                    className={this.isActiveRoom("gravity-0-022")}
+                    x="1450.97"
+                    y="810.04"
+                    width="50.75"
+                    height="50.48"
                     />
                 <rect
                     onClick={this.handleClick.bind(this, "gravity-0-023")}

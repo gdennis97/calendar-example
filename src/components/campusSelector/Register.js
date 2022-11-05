@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom'
 import './HomePage.css';
 
 
-function Login() {
+function Register() {
   return (
     <div className='HomePage'>
         {/* <Link to='/'>Home</Link>
@@ -16,4 +16,4 @@ function Login() {
   )
 }
 
-export default Login
+export default Register

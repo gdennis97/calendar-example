@@ -1,0 +1,65 @@
+.HomePage {
+    text-align: center;
+    font-family: cursive; 
+    word-spacing: 5px;
+}
+
+.homebutton {
+    color: white;
+    background-color: #3B73B9;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    border: #23599b;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    margin-left: 950px;
+    border-radius: 20px;
+}
+.loginbutton {
+    color: white;
+    background-color: #3B73B9;
+    font-family:'Times New Roman', Times, serif;
+    font-size: large;
+    border: #23599b;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+.registerbutton {
+    color: white;
+    background-color: #3B73B9;
+    font-family:'Times New Roman', Times, serif;
+    font-size: medium;
+    border: #23599b;
+    border-style: solid;
+    height: 30px;
+    width: 100px;
+    border-radius: 20px;
+    margin-left: 25px;
+}
+
+.homeheader {
+  text-align: center;
+  color: transparent;
+  font-size: larger;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-style: italic;
+  border-width: thick;
+  border-style:double;
+  border-width: 7pt;
+  border-radius: 7px;
+  border-color: #3B73B9;
+  height: 100px;
+  width: 235px;
+  margin-left: 580px;
+  margin-top: -35px;
+  margin-bottom: 10px;
+  background-image: url(https://live.staticflickr.com/65535/52437671000_d50242a7e9.jpg);
+  background-position: 13px 12px;
+  background-size: 210px;
+  background-repeat: no-repeat;
+    
+}

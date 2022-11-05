@@ -5,6 +5,7 @@ import { AutoSizer } from "react-virtualized";
 import "./MapOne.css";
 import Avatar from '@mui/material/Avatar';
 import Stack from '@mui/material/Stack';
+import {Link} from 'react-router-dom'
 
 
 class MapTwo extends Component {
@@ -122,6 +123,10 @@ class MapTwo extends Component {
                 <p1>AM</p1><div></div>
                 <p1>PM</p1><div></div>
                 <p1>BOTH</p1>
+                <Link to='/'><button className='homebutton'>Home</button></Link> 
+        <Link to='/MapOne'><button className= 'loginbutton'>Map1</button></Link>
+        <Link to='/MapTwo'><button className= 'registerbutton'>Map2</button></Link>
+        <Link to='/MapThree'><button className= 'registerbutton'>Map3</button></Link>
             </div>
           <div style={{ width: "100%", height: "100%" }}>
             <AutoSizer>
